@@ -166,3 +166,11 @@ QObject* sender() ;
 
 当我们不需要信号槽连接时，可使用`disconnect()`进行解绑定。其写法和`connect`一样，只需要将`connect`换成`disconnect`即可。
 
+## 9. 信号和槽实现原理
+
+https://zhuanlan.zhihu.com/p/28423034 
+
+关键为 **moc**（meta object compiler），**注册-索引**。
+
+`signals` 会被定义，`emit` 为空。
+
