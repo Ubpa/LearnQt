@@ -12,8 +12,8 @@ https://zhuanlan.zhihu.com/c_119081535
   - [x] 01_01 HelloWorld
   - [x] 01_02 `qDebug` 
 - [ ] 02 Qt窗口
-  - [ ] 02_01 窗口和控件
-  - [ ] 02_02 `QWidget` 
+  - [x] 02_01 窗口和控件
+  - [x] 02_02 `QWidget` 
   - [ ] 02_03 信号和槽
   - [ ] 02_04 对话框 `QDialog` 
   - [ ] 02_05 标准对话框
