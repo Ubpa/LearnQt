@@ -1,6 +1,6 @@
 # 02_03. 信号和槽
 
-
+[TOC]
 
 在面向对象的编程方法中，都会创建很多的实例，每个实例都是单独的，要想每个实例能够协同合作，那么就会需要一种对象间**传递消息**的机制，在很多框架中都采用**回调函数**来进行对象间信息传递。
 
@@ -82,4 +82,87 @@ connect(pushButton, QPushButton::clicked, dialog,  QDialog::close);
 ## 4. 信号槽示例
 
 参看 `projects / 02_03_Signal_Slots_01` 
+
+## 5. 在 UI 中编辑信号槽
+
+参看 `projects / 02_03_Signal_Slots_02` 
+
+- 拖入 `Progress Bar` 和 `PushButton` 
+- 在编辑窗口中工具栏中选择**编辑信号 / 槽**（Edit Signals/Slots）
+- 点击需要发送信号的控件`PushButton`，并拖动箭头到需要接收信号的控件`Progress Bar`。
+- 此时，会弹出连接窗口，勾选左下角**显示从QWidget中继承的信号和槽**，信号选择`toggled(bool)`，槽选择`setVisible(bool)`。点击确定。
+- 选择工具栏中的**编辑窗口部件**（Edit Widgets）。选择`PushButton`，修改按钮的`checkable`属性为`true`。`checkable`表示点击按钮后处于按下状态（`checked`为`true`），若再点击按钮，才会弹起（`checked`为`false`）。`checked`为`true`，表示按钮已经被按下。
+
+此时，打开生成的`ui_Signal_Slots_02.h`文件，看到下面这行代码：
+
+```c++
+QObject::connect(pushButton, SIGNAL(toggled(bool)), progressBar, SLOT(setVisible(bool)));
+```
+
+编辑的信号槽已经被写到这个头文件中了
+
+## 6. 通过对象名关联信号槽
+
+参看 `projects / 02_03_Signal_Slots_02` 
+
+- 槽函数声明
+
+  ```c++
+  public slots:
+  	void on_pushButton_toggled(bool checked);
+  ```
+
+- 槽函数定义
+
+  ```c++
+  void Signal_Slots_02::on_pushButton_toggled(bool checked)
+  {
+  	if (checked)
+  	{
+  		ui.pushButton->setText("隐藏进度条");
+  	}
+  	else
+  	{
+  		ui.pushButton->setText("显示进度条");
+  	}
+  }
+  ```
+
+- 连接
+
+  在生成的 `ui_02_03_Signal_Slots_02.h` 中有
+
+  ```c++
+  QMetaObject::connectSlotsByName(Signal_Slots_02Class);
+  ```
+
+  这会自动的进行连接。
+
+  注意槽函数的命名规则为`on_<ObjectName>_<SignalName>(<ParameterList>)` 
+
+  这个 `<ObjectName>`是**属性**，通过`setObjectName`来设置，而不是变量名
+
+## 7. QSignalMapper
+
+参看 `projects / 02_03_Signal_Slots_03` 
+
+当我们想要点击一个按钮，并且想将预先定好的参数一同发送出去时，由于按钮的点击事件`clicked()`并没有参数，那么按照一般的做法就会先定义一个槽与`clicked()`信号关联，然后获取参数，再通过自定义的信号将该参数发送出去。
+
+这个过程无疑是繁琐的，为此，Qt提供了`QSignalMapper`这个类来解决这个问题。同时，这个类可以连接多个按钮，匹配发送信号的对象对应的整数、字符串，窗口指针，继承于`QObject`的对象参数重新发送它们。
+
+使用方法参考代码。
+
+## 8. 相关函数
+
+### 8.1 获取信号发送者
+
+当多个信号连接一个槽时，有时需要判断是哪个对象发来的，那么可以调用`sender()`函数获取对象指针，返回为`QObject`指针。
+
+```c++
+QObject* sender() ;
+```
+
+### 8.2 解除绑定信号槽
+
+当我们不需要信号槽连接时，可使用`disconnect()`进行解绑定。其写法和`connect`一样，只需要将`connect`换成`disconnect`即可。
 

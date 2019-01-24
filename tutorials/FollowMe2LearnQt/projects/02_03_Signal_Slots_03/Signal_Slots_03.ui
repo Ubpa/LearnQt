@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>Signal_Slots_03Class</class>
+ <widget class="QWidget" name="Signal_Slots_03Class" >
+  <property name="objectName" >
+   <string notr="true">Signal_Slots_03Class</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Signal_Slots_03</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="Signal_Slots_03.qrc"/>
+ </resources>
+ <connections/>
+</UI>

@@ -18,9 +18,11 @@ Signal_Slots_01::Signal_Slots_01(QWidget *parent)
 	ui.lineEdit->setValidator(validator);
 
 	// type 1
+	// lineEdit的文本修改时会调用sltLineEditChanged
 	connect(ui.lineEdit, &QLineEdit::textChanged, this, &Signal_Slots_01::sltLineEditChanged);
 
 	// type 2
+	// this的信号sigShowVal发射时会调用setText
 	connect(this, SIGNAL(sigShowVal(QString)), ui.label, SLOT(setText(QString)));
 }
 
