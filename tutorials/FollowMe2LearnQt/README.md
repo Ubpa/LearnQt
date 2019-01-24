@@ -6,6 +6,12 @@ https://zhuanlan.zhihu.com/c_119081535
 
 [知乎](https://www.zhihu.com/people/xiao-dou-jun-de-gan-huo-pu/activities) 
 
+## 资源
+
+链接：https://pan.baidu.com/s/1kRxf_w0j2iPzTHEJNJjTVw 
+
+提取码：kebs 
+
 ## TODO
 
 - [x] 01 初识Qt
