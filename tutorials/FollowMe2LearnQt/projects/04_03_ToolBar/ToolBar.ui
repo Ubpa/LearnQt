@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ToolBarClass</class>
+ <widget class="QMainWindow" name="ToolBarClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ToolBarClass</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="check_floatable">
+      <property name="text">
+       <string>floatable </string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QListWidget" name="listWidget_area">
+      <item>
+       <property name="text">
+        <string>Qt::LeftToolBarArea</string>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Qt::RightToolBarArea</string>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Qt::TopToolBarArea</string>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Qt::BottomToolBarArea</string>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QListWidget" name="listWidget_button">
+      <item>
+       <property name="text">
+        <string>Qt::ToolButtonIconOnly</string>
+       </property>
+       <property name="checkState">
+        <enum>Checked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Qt::ToolButtonTextOnly</string>
+       </property>
+       <property name="checkState">
+        <enum>Unchecked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Qt::ToolButtonTextBesideIcon</string>
+       </property>
+       <property name="checkState">
+        <enum>Unchecked</enum>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Qt::ToolButtonTextUnderIcon</string>
+       </property>
+       <property name="checkState">
+        <enum>Unchecked</enum>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QCheckBox" name="check_movable">
+      <property name="text">
+       <string>movable </string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionAction1"/>
+    <addaction name="actionAction2"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="allowedAreas">
+    <set>Qt::AllToolBarAreas</set>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAction1"/>
+   <addaction name="actionAction2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAction1">
+   <property name="text">
+    <string>Action1</string>
+   </property>
+  </action>
+  <action name="actionAction2">
+   <property name="text">
+    <string>Action2</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -5,6 +5,7 @@
 #include "ui_selectcolorwidget.h"
 
 class QButtonGroup;
+
 class SelectColorWidget : public QWidget
 {
     Q_OBJECT
