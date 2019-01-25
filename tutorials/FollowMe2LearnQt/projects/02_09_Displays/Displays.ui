@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DisplaysClass</class>
+ <widget class="QWidget" name="DisplaysClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>358</width>
+    <height>146</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DisplaysClass</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" columnstretch="1,0">
+   <item row="0" column="1">
+    <widget class="QLabel" name="label_display">
+     <property name="text">
+      <string>请在左侧的输入框输入文本</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QCheckBox" name="check_scaled">
+     <property name="text">
+      <string>scaledContents</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>textFormat</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="combo_format"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QSpinBox" name="spin_indent"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QCheckBox" name="check_links">
+     <property name="text">
+      <string>openExternalLinks</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QCheckBox" name="check_wordWrap">
+     <property name="text">
+      <string>wordWrap</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLineEdit" name="lineEdit"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>indent</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

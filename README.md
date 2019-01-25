@@ -1,6 +1,6 @@
 # LearnQt
 
-这个项目用来记录学习 Qt 的过程
+这个项目用来记录学习 [Qt](https://www.qt.io/) 的过程
 
 ## Tutorials
 

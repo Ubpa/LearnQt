@@ -1,4 +1,4 @@
-# 02_07. 按钮
+# 02_07. 按钮控件
 
 示例参考 `projects/02_07_Buttons` 
 
@@ -110,4 +110,3 @@ https://doc.qt.io/qt-5/qcheckbox.html#details
 - **tristate** : bool
 
 **tristate**：是否为三种状态。三态即：全选，全不选，部分勾选。在树控件中，常会用到三态。
-
