@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Menu">
+        <file>Resources/image/qq.png</file>
+        <file>Resources/image/wechat.png</file>
+    </qresource>
+</RCC>
