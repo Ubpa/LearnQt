@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Container_03Class</class>
+ <widget class="QWidget" name="Container_03Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>694</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Container_03Class</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,1">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>晴天</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QTextEdit" name="textEdit">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:10px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:29px; background-color:#ffffff;&quot;&gt;&lt;a name=&quot;best-content-189787122&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'PingFang SC,Lantinghei SC,Microsoft YaHei,arial,宋体,sans-serif,tahoma'; font-size:16px; color:#333333; background-color:#ffffff;&quot;&gt;歌&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Lantinghei SC,Microsoft YaHei,arial,宋体,sans-serif,tahoma'; font-size:16px; color:#333333; background-color:#ffffff;&quot;&gt;曲：晴天&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:10px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:29px; background-color:#ffffff;&quot;&gt;&lt;a name=&quot;best-content-189787122&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'PingFang SC,Lantinghei SC,Microsoft YaHei,arial,宋体,sans-serif,tahoma'; font-size:16px; color:#333333; background-color:#ffffff;&quot;&gt;歌&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Lantinghei SC,Microsoft YaHei,arial,宋体,sans-serif,tahoma'; font-size:16px; color:#333333; background-color:#ffffff;&quot;&gt;手：周杰伦 &lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Lantinghei SC,Microsoft YaHei,arial,宋体,sans-serif,tahoma'; font-size:16px; color:#333333;&quot;&gt;专辑：叶惠美&lt;br /&gt;&lt;br /&gt;作词:周杰伦&lt;br /&gt;作曲:周杰伦&lt;br /&gt;&lt;br /&gt;故事的小黄花 &lt;br /&gt;从出生那年就飘着 &lt;br /&gt;童年的荡秋千 &lt;br /&gt;随记忆一直晃到现在 &lt;br /&gt;rui sou sou xi dou xi la &lt;br /&gt;sou la xi xi xi xi la xi la sou &lt;br /&gt;吹着前奏望着天空 &lt;br /&gt;我想起花瓣试着掉落 &lt;br /&gt;为你翘课的那一天 &lt;br /&gt;花落的那一天 &lt;br /&gt;教室的那一间 &lt;br /&gt;我怎么看不见 &lt;br /&gt;消失的下雨天 &lt;br /&gt;我好想再淋一遍 &lt;br /&gt;没想到失去的勇气我还留着 &lt;br /&gt;好想再问一遍 &lt;br /&gt;你会等待还是离开 &lt;br /&gt;&lt;br /&gt;刮风这天我试过握着你手 &lt;br /&gt;但偏偏雨渐渐大到我看你不见 &lt;br /&gt;还要多久我才能在你身边 &lt;br /&gt;还要多久我才能够在你身边 &lt;br /&gt;等到放晴的那天也许我会比较好一点 &lt;br /&gt;等到放晴那天也许我会比较好一点 &lt;br /&gt;从前从前有个人爱你很久 &lt;br /&gt;但偏偏风渐渐把距离吹得好远 &lt;br /&gt;偏偏风渐渐把距离吹得好远 &lt;br /&gt;但偏偏雨渐渐把距离吹得好远 &lt;br /&gt;好不容易又能再多爱一天 &lt;br /&gt;但故事的最后你好像还是说了拜拜 &lt;br /&gt;但故事的最后你好像还是说了&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>是不是这样的夜晚你才会这样的想起我</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTextEdit" name="textEdit_2">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:10px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:29px; background-color:#ffffff;&quot;&gt;&lt;a name=&quot;best-content-125247326&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'PingFang SC,Lantinghei SC,Microsoft YaHei,arial,宋体,sans-serif,tahoma'; font-size:16px; color:#333333; background-color:#ffffff;&quot;&gt;歌&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Lantinghei SC,Microsoft YaHei,arial,宋体,sans-serif,tahoma'; font-size:16px; color:#333333; background-color:#ffffff;&quot;&gt;曲：是不是这样的夜晚才会这样的想起我&lt;/span&gt;&lt;span style=&quot; font-family:'PingFang SC,Lantinghei SC,Microsoft YaHei,arial,宋体,sans-serif,tahoma'; font-size:16px; color:#333333;&quot;&gt;&lt;br /&gt;歌手：吴宗宪&lt;br /&gt;&lt;br /&gt;是不是这样的夜晚才会这样的想起我&lt;br /&gt;&lt;br /&gt;结束忙碌的一天换回熟悉的寂寞&lt;br /&gt;懒懒的躺在沙发上&lt;br /&gt;像母亲温暖臂膀&lt;br /&gt;转到昨天的频道让声音驱走寂静&lt;br /&gt;总是同样的剧情同样的对白&lt;br /&gt;同样的空白&lt;br /&gt;是不是这样的夜晚你才会这样的想起我&lt;br /&gt;这样的夜晚适合在电话里&lt;br /&gt;只要几句小心的彼此问候&lt;br /&gt;洗这两端的猜测&lt;br /&gt;是这样的夜晚想起我 oh&lt;br /&gt;是不是这样的夜晚你才会这样的想起我&lt;br /&gt;这样的夜晚适合在电话里&lt;br /&gt;虽然几句小心的彼此问候&lt;br /&gt;现在牵未来的手&lt;br /&gt;是这样的日子需要改变&lt;br /&gt;转到昨天的频道让声音驱走寂静&lt;br /&gt;总是同样的剧情同样的对白&lt;br /&gt;同样的空白&lt;br /&gt;是不是这样的夜晚你才会这样的想起我&lt;br /&gt;这样的夜晚适合在电话里&lt;br /&gt;只要几句小心的彼此问候&lt;br /&gt;洗这两端的猜测&lt;br /&gt;是这样的夜晚想起我 oh&lt;br /&gt;是不是这样的夜晚你才会这样的想起我&lt;br /&gt;这样的夜晚适合在电话里&lt;br /&gt;虽然几句小心的彼此问候&lt;br /&gt;现在牵未来的手&lt;br /&gt;是这样的日子需要改变&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolBox" name="toolBox">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>217</width>
+        <height>270</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>Page 1</string>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>217</width>
+        <height>270</height>
+       </rect>
+      </property>
+      <attribute name="label">
+       <string>Page 2</string>
+      </attribute>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>QTabWidget</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="1" column="1">
+         <widget class="QComboBox" name="combo_tabposition"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>tabPosition</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="combo_elide"/>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>elideModel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QCheckBox" name="check_closable">
+          <property name="text">
+           <string>tabsClosable</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QCheckBox" name="check_moveable">
+          <property name="text">
+           <string>moveable</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QCheckBox" name="check_document">
+          <property name="text">
+           <string>documentMode</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QCheckBox" name="check_autohide">
+          <property name="text">
+           <string>tabBarAutoHide</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0" colspan="2">
+         <widget class="QCheckBox" name="check_scrollBtns">
+          <property name="text">
+           <string>usesScrollButtons</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>tabShape</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QComboBox" name="combo_tabshape"/>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>QToolBox</string>
+       </property>
+       <widget class="QPushButton" name="btn_addItem">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>30</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>插入一个新item</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_delItem">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>80</y>
+          <width>121</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>删除当前item</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
