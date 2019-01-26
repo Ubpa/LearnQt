@@ -49,7 +49,7 @@ public:
 "}"));
         horizontalSlider = new QSlider(QSSClass);
         horizontalSlider->setObjectName(QString::fromUtf8("horizontalSlider"));
-        horizontalSlider->setGeometry(QRect(70, 120, 160, 22));
+        horizontalSlider->setGeometry(QRect(80, 130, 160, 22));
         horizontalSlider->setStyleSheet(QString::fromUtf8("QSlider::groove:horizontal {\n"
 "border: 1px solid #4A708B;\n"
 "background: #C0C0C0;\n"
